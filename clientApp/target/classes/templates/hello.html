@@ -1,0 +1,19 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<h2>Client Page</h2>
+<table border="1">
+<tr>
+   <th>id</th>
+   <th>nom</th>
+   <th>agence</th>
+   <th>rib</th>
+</tr>
+<tr>
+	<td th:text=${client.id}></td>
+	<td th:text=${client.name}></td>
+	<td th:text=${client.nomAgence}></td>
+	<td th:text=${client.rib}></td>
+</tr>
+</table>
+</body>
+</html>
